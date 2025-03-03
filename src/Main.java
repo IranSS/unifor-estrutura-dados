@@ -1,9 +1,12 @@
+import Models.Hash.MyHash;
 import Models.MinhaLista.ManipuladorLista;
 import Models.MinhaLista.Lista;
 import Models.MinhaLista.No;
+import Models.Hash.MyHash;
 
 public class Main {
     public static void main(String[] args) {
+        /*
 
         //Somente para testar a funcionalidade da lista encadeada
         ManipuladorLista manipuladorLista = new ManipuladorLista();
@@ -22,5 +25,22 @@ public class Main {
         manipuladorLista.AdicionarElemento(minhaLista, elemento5);
 
         manipuladorLista.Imprimir(minhaLista);
+         */
+        MyHash hashtable = new MyHash();
+
+        hashtable.adicionarPalavra("Arroz");
+        hashtable.adicionarPalavra("Feijão");
+        hashtable.adicionarPalavra("Macarrão");
+        hashtable.adicionarPalavra("Linguiça");
+        hashtable.adicionarPalavra("Bife");
+        hashtable.adicionarPalavra("Cebola");
+        hashtable.adicionarPalavra("Melancia");
+
+        System.out.println("Tem arroz na tabela? " + hashtable.buscarPalavra("Arroz"));
+        System.out.println("Tem linguiça na tabela? " + hashtable.buscarPalavra("Linguiça"));
+
+        hashtable.removerPalavra("Linguiça");
+
+        System.out.println("Tem linguiça na tabela? " + hashtable.buscarPalavra("Linguiça"));
     }
 }
