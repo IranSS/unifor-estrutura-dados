@@ -31,5 +31,5 @@ Os dados são organizados em ordem alfabética e escritos em um arquivo de saíd
 
 Aluno: Francisco Iranildo de Sousa Avelino
 
-Aluno:
+Aluno: Jorgirerison Leite Peixôto
 
