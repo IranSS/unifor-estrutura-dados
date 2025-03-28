@@ -3,6 +3,7 @@ package Models.Hash;
 import Models.MinhaLista.MyList;
 
 public class MyHash {
+
     private static final int tamanho = 26;
     private MyList[] tabela;
 

@@ -29,7 +29,7 @@ Os dados são organizados em ordem alfabética e escritos em um arquivo de saíd
 
 ### Participantes do Projeto
 
-Aluno: Francisco Iranildo de Sousa Avelino
+Aluno: Francisco Iranildo de Sousa Avelino - 2415577
 
-Aluno: Jorgirerison Leite Peixôto
+Aluno: Jorgirerison Leite Peixôto - 2415465
 
